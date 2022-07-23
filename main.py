@@ -11,6 +11,12 @@ def index():
     g = geocoder.ip('me')
     print(g.latlng)
     return render_template('index.html', data=data, coords=g.latlng)
+
+app.route('/home')
+def home():
+  return render_template('index.html')
+  
+  
         
 @app.route('/men')
 def men():
