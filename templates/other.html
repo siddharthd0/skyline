@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../static/style.css">
+  <title>Skyline | Other</title>
+</head>
+<body>
+    <!--Navbar-->
+      <header>  
+    <!--Logo here -->
+        <nav>
+           <ul class="list-items">
+              <li><a class="underline" href="/home">Home</a></li>
+              <li><a class="underline" href="/men">Men</a></li>
+             <li><a class="underline" href="/woman">Women</a></li>
+          </ul>
+        </nav>
+      </header>
+  <div class="container" style="color: white;">
+    <h1 style="color: white;">Others Clothing Recommendation</h1>
+    <br>
+    <p>Your Location: </p>
+    <br>
+    <p id="location"></p>
+  </div>
+  <script>
+    window.onload = function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+      }
+    }
+    
+    function showPosition(position) {
+      let x = document.getElementById('location');
+      x.innerHTML = position.coords.latitude + ', '+position.coords.longitude;
+      console.log(position.coords.latitude)
+      console.log(position.coords.longitude);
+    }
+  </script>
+</body>
+</html>
