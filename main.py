@@ -12,16 +12,17 @@ def index():
     print(g.latlng)
     return render_template('index.html', data=data, coords=g.latlng)
         
-app.run(host='0.0.0.0', port=81, debug=True)
-
 @app.route('/men')
 def men():
   return render_template('men.html')
 
 @app.route('/selection')
-def men():
+def selection():
   return render_template('gender-selector.html')
 
 @app.route('/women')
 def women():
-  return render_template('women.html')
+  return render_template('woman.html')
+
+
+app.run(host='0.0.0.0', port=81, debug=True)
