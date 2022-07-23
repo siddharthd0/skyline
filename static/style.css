@@ -3,6 +3,7 @@
 *{
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body, html{
@@ -17,8 +18,8 @@ body, html{
 }
 
 .container{
-  width: 90%;
-  height: 100%;
+  width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,13 +28,20 @@ body, html{
 
 .row{
   width: 100%;
-  height: 80%;
+  height: 100vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-
+.row-2{
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 .one-of-two{
   width: 50%;
   height: 100%;
@@ -41,6 +49,7 @@ body, html{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-right: 50px;
 }
 /* NAVIGATION */
 
@@ -48,7 +57,8 @@ header {
   display: flex;
   justify-content: space-between
   align-items: center;
-  padding: 20px 5%;
+
+  
 }
 
 .list-items {
@@ -84,7 +94,7 @@ li a:hover {
   width: 0;
   height: 2px;
   background-color: #FCA311;
-  transition: width 2s cubic-bezier(0.25, 1, 0.5, 1)
+  transition: width 1s cubic-bezier(0.25, 1, 0.5, 1)
 }
 
 @media (hover: hover) and (pointer: fine) {
@@ -103,13 +113,15 @@ li a:hover {
    display:flex;
 }
 .hero-home-image {
-  width: 500px;
+  width: 600px;
   float:right;
   display:flex;
 }
 .hero-text {
   margin-top: 120px;
   color:white;
+  line-height: 50px;
+  size: 32px
 }
 .good-button {
   background-color:black;
@@ -118,7 +130,7 @@ li a:hover {
   padding: 15px;
   margin:10px;
   text-decoration:none;
-  transition:370ms;
+  transition: 350ms;
    border: 1px solid transparent;
   text-align:left;
 }
@@ -130,4 +142,113 @@ li a:hover {
   .row{
     flex-direction: column;
   }
+}
+.gender-selection-box {
+  background-color: rgba(0, 0, 0, 0.25);
+  display:inline-block;
+  text-align:center;
+  padding: 50px;
+  margin:20px;
+  color:white;
+  border-radius: 10px;
+  
+  border: 1px solid #07458b;
+  
+  backdrop-filter: blur (2px);
+  -webkit-backdrop-filter: blur(2px);
+  transition: all 1s ease-in-out;
+}
+.gender-selection-box:hover{
+   box-shadow: 0 10px 32px 0 rgba(31, 38, 135, 0.37 );
+  
+  transition: all 1s ease-in-out;
+}
+
+.image-gender-selection {
+  width: 200px;
+}
+
+nav {
+  margin:auto !important;
+  text-align:center !important;
+  position: fixed;
+  z-index: 2;
+  background-color:rgba(0, 0, 0, 0.25);
+   -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  margin:0 !important;
+  padding-bottom:10px !important;
+  padding-top: 10px !important;
+}
+
+footer {
+  margin:auto;
+  text-align:center;
+  background-color:rgba(0, 0, 0, 0.25);
+  color:white;
+}
+.small-container {
+  width: 1100px;
+}
+ul {
+    list-style: none;
+}
+label,
+input,
+textarea {
+    display: block;
+    width: 100%;
+}
+span {
+    font-weight: 700;
+    color: #2a7eca;
+    line-height: 35px;
+    line-height: 2.5rem;
+    font-size: 12px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+input[type="submit"] {
+    background-color: #14213d;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin-top: 1.3em;
+    border:none;
+}
+
+
+form {
+   background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 9px 20px;
+    border: none;
+    background-color: #002e7a;
+    color: #caf0fe;
+    caret-color: #829ab1;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-size: 1rem;
+    line-height: 29px;
+    line-height: 2rem;
+    box-shadow: inset 0 2px 4px 0 rgba(206, 209, 224, 0.2);
+    border-radius: 3px;
+    line-height: 29px;
+    line-height: 2rem;
 }
