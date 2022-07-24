@@ -12,8 +12,18 @@
   <title>Skyline | Men</title>
 </head>
 <body>
+    <style>
+    img
+    {
+    float: left;
+    width:  100px;
+    height: 200px;
+    object-fit: cover;
+}
+      </style>
   <!--Navbar-->
       <header>  
+        
     <!--Logo here -->
         <nav>
            <ul class="list-items">
@@ -36,7 +46,7 @@
     </ul>
 
   </div>
-  <footer>
+  <footer style="margin-top:10%;">
       <br>
      <ul>
        <li>
@@ -85,6 +95,20 @@
             if (num > 60){
               var img = document.createElement('img');
               var random = hot[Math.floor(Math.random()*hot.length)];
+              img.src = random.image_url;
+              console.log(random.image_url);
+              node.appendChild(img);
+            }
+            if (num < 60 && num > 30){
+              var img = document.createElement('img');
+              var random = cold[Math.floor(Math.random()*cold.length)];
+              img.src = random.image_url;
+              console.log(random.image_url);
+              node.appendChild(img);
+            }
+            if (num < 30) {
+              var img = document.createElement('img');
+              var random = rain[Math.floor(Math.random()*rain.length)];
               img.src = random.image_url;
               console.log(random.image_url);
               node.appendChild(img);

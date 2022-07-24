@@ -88,12 +88,8 @@ def contact():
 def test1():
   return render_template('test1.html')
   
-@app.route('/other', methods=['GET','POST'])
+@app.route('/other')
 def other():
-  if request.method == 'POST':
-    output = request.get_json()
-    if output != None:
-      print(output) 
-  return render_template('other.html')
-  
+ return render_template('other.html')
+
 app.run(host='0.0.0.0', port=81, debug=True, use_reloader = True)

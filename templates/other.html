@@ -8,15 +8,14 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js">
   </script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+ <script type="text/javascript" src="../static/other.json"></script>
   <title>Skyline | Others</title>
 </head>
 <body>
   <!--Navbar-->
       <header>  
     <!--Logo here -->
+    
         <nav>
            <ul class="list-items">
               <li><a class="underline" href="/home">Home</a></li>
@@ -27,7 +26,7 @@
         </nav>
       </header>
   <div class="container" style="color: white;">
-    <h1 style="color: white;"><span class="green-highlight">Others</span> Clothing Recommendation</h1>
+    <h1 style="color: white;"><span class="green-highlight">Others </span> Clothing Recommendation</h1>
     <br>
     <p>Your Location: </p> 
     <br>
@@ -38,13 +37,7 @@
     </ul>
 
   </div>
-  <script src="../static/main.js">
-  </script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <footer>
+  <footer style="margin-top:10%;">
       <br>
      <ul>
        <li>
@@ -59,5 +52,102 @@
       </ul>
       <br>
     </footer>
+  <script>
+    window.onload = function getLocation() {
+      if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(showPosition);
+        }
+      }
+      function fetch2(url, jsdata){
+        fetch(url).then(function(response) {
+          return response.json();
+        }).then(function(data) {
+          console.log(data);
+          console.log(data["properties"]["periods"]);
+          let arr = data["properties"]["periods"];
+          var hot=jsdata.filter(obj=> obj.temp == "hot");
+          var cold=jsdata.filter(obj=> obj.temp == "cold");
+          var rain=jsdata.filter(obj=> obj.temp == "rain");
+          console.log(hot);
+          console.log(cold);
+          console.log(rain);
+
+          console.log(arr[0].detailedForecast)
+          for (let i = 0; i < arr.length-9; i++) {
+            const node = document.createElement("li");
+            const textnode = document.createTextNode(arr[i].name + ': '+arr[i].detailedForecast);
+            var regex = /\d+/g;
+            var string = arr[i].detailedForecast;
+            var matches = string.match(regex);  
+            // console.log(matches);
+            let num = parseInt(matches[0])
+            console.log(num)
+            node.appendChild(textnode);
+            if (num > 60){
+              var img = document.createElement('img');
+              var random = hot[Math.floor(Math.random()*hot.length)];
+              img.src = random.image_url;
+              console.log(random.image_url);
+              node.appendChild(img);
+            }
+            if (num < 60 && num > 30){
+              var img = document.createElement('img');
+              var random = cold[Math.floor(Math.random()*cold.length)];
+              img.src = random.image_url;
+              console.log(random.image_url);
+              node.appendChild(img);
+            }
+            if (num < 30) {
+              var img = document.createElement('img');
+              var random = rain[Math.floor(Math.random()*rain.length)];
+              img.src = random.image_url;
+              console.log(random.image_url);
+              node.appendChild(img);
+            }
+            document.getElementById("myList").appendChild(node);
+          }
+        }).catch(function() {
+          console.log("Booo");
+        });
+      }
+      function showPosition(position) {
+        let x = document.getElementById('location');
+        x.innerHTML = position.coords.latitude + ', '+position.coords.longitude;
+        let y = position.coords.latitude
+        let z = position.coords.longitude
+        fetch("../static/other.json")
+        .then(response => {
+           return response.json();
+        }).then(
+          jsondata => {
+            const dict_values = {y, z} //Pass the javascript variables to a dictionary.
+            const s = JSON.stringify(dict_values); // Stringify converts a JavaScript object or value to a JSON string
+            console.log(s); // Prints the variables to console window, which are in the JSON format
+            fetch('https://api.weather.gov/points/'+y+','+z).then(function(response) {
+              return response.json();
+            }).then(function(data) {
+              console.log(data["properties"]["forecast"]);
+              fetch2(data["properties"]["forecast"], jsondata)
+            }).catch(function() {
+              console.log("Booo");
+            });
+          }
+        );
+
+      }
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+    <style>
+    img
+    {
+    float: left;
+    width:  100px;
+    height: 250px;
+    object-fit: cover;
+}
+  </style>
 </body>
 </html>

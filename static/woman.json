@@ -1,0 +1,135 @@
+[
+  {
+    "title": "dress",
+    "temp": "hot",
+    "image_url": "https://m.media-amazon.com/images/I/51W+JYefIHL._SX38_SY50_CR,0,0,38,50_.jpg",
+    "product_details": "https://www.amazon.com/Dresses-Sleeveless-Sundress-Pockets-Colorful/dp/B083ZN7M52/ref=sxin_19_ac_d_rm?ac_md=1-1-d29tZW4gZHJlc3Nlcw%3D%3D-ac_d_rm_rm_rm&content-id=amzn1.sym.568df61d-e115-4cb1-a96a-ba070b8f0935%3Aamzn1.sym.568df61d-e115-4cb1-a96a-ba070b8f0935&crid=1M0ECERKY3KEP&cv_ct_cx=women%2Bdress&keywords=women%2Bdress&pd_rd_i=B07VNB52TW&pd_rd_r=02b38e83-47bc-43f5-b40d-e9c4f457af5f&pd_rd_w=bxnpu&pd_rd_wg=LGoKP&pf_rd_p=568df61d-e115-4cb1-a96a-ba070b8f0935&pf_rd_r=5CSFXNR5TJ8T7VYXMYE2&qid=1658637758&sprefix=women%2Bdres%2Caps%2C209&sr=1-2-7d9bfb42-6e38-4445-b604-42cab39e191b&th=1&psc=1",
+    "gender": "women"
+  },
+  {
+    "title": "dress",
+    "temp": "hot",
+    "image_url": "https://cdn.discordapp.com/attachments/998444037205925971/1000625649683267614/unknown.png",
+    "product_details": "https://www.amazon.com/Amazon-Essentials-Womens-Terracotta-Medium/dp/B09HCVB454/ref=sr_1_14?crid=1M0ECERKY3KEP&keywords=women+dress&qid=1658637758&sprefix=women+dres%2Caps%2C209&sr=8-14",
+    "gender": "women"
+  },
+  {
+    "title": "sweatsuit",
+    "temp": "cold",
+    "image_url": "https://cdn.discordapp.com/attachments/998444037205925971/1000626068484542464/Screen_Shot_2022-07-23_at_10.50.40_PM.png",
+    "product_details": "https://www.amazon.com/Hotouch-Outfits-Tracksuit-Matching-Sweatsuit/dp/B09ZTTGSBK/ref=sr_1_1_sspa?crid=1MT6679C1B9UM&keywords=women+winter+outfit&qid=1658638203&sprefix=women+winter+outfi%2Caps%2C190&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzQkQxQ0xOSFdLSjVIJmVuY3J5cHRlZElkPUEwMzc2MTIzMTRFUFY1OUNVQzdTWiZlbmNyeXB0ZWRBZElkPUEwMjUxNzQySFgwV1ZERjVaVDdMJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==",
+    "gender": "women"
+  },
+  {
+    "title": "sweatsuit",
+    "temp": "cold",
+    "image_url": "https://media.discordapp.net/attachments/998444037205925971/1000626192199733308/Screen_Shot_2022-07-23_at_10.51.09_PM.png?width=415&height=1046",
+    "product_details": "https://www.amazon.com/Rib-Knit-Pullover-Sweater-Outfits-Tracksuit/dp/B07J6SY5M9/ref=sr_1_8?crid=1MT6679C1B9UM&keywords=women+winter+outfit&qid=1658638203&sprefix=women+winter+outfi%2Caps%2C190&sr=8-8",
+    "gender": "women"
+  },
+  {
+    "title": "raincoat",
+    "temp": "rain",
+    "image_url": "https://www.amazon.com/Travel-Raincoat-Women-Waterproof-Jacket/dp/B095P75C5S/ref=sr_1_4_sspa?crid=1S7TQJNNQHVYA&keywords=women+raincoat+outfit&qid=1658638341&sprefix=women+raincoat+outfi%2Caps%2C159&sr=8-4-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzUDNDODQ1RFNQNzlUJmVuY3J5cHRlZElkPUEwNTUwOTUzMU1IT1dHVDFVTlJFQSZlbmNyeXB0ZWRBZElkPUEwNjI2NjE3MzNUSlRDQUdKTzBXJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==",
+    "product_details": "https://www.amazon.com/Travel-Raincoat-Women-Waterproof-Jacket/dp/B095P75C5S/ref=sr_1_4_sspa?crid=1S7TQJNNQHVYA&keywords=women+raincoat+outfit&qid=1658638341&sprefix=women+raincoat+outfi%2Caps%2C159&sr=8-4-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzUDNDODQ1RFNQNzlUJmVuY3J5cHRlZElkPUEwNTUwOTUzMU1IT1dHVDFVTlJFQSZlbmNyeXB0ZWRBZElkPUEwNjI2NjE3MzNUSlRDQUdKTzBXJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==",
+    "gender": "women"
+  },
+  {
+    "title": "raincoat",
+    "temp": "rain",
+    "image_url": "https://m.media-amazon.com/images/I/71kvMhYQD3L._AC_UL640_QL65_.jpg",
+    "product_details": "https://www.amazon.com/gp/slredirect/picassoRedirect.html/ref=pa_sp_mtf_aps_sr_pg1_1?ie=UTF8&adId=A01104062MB62ZA5G8YU2&url=%2FINVOLAND-Waterproof-Raincoat-Lightweight-Windbreaker%2Fdp%2FB09KSZ5MLN%2Fref%3Dsr_1_19_sspa%3Fkeywords%3Dwomen%2Braincoat%2Boutfit%26qid%3D1658638393%26sr%3D8-19-spons%26psc%3D1&qualifier=1658638393&id=2325884626068381&widgetName=sp_mtf",
+    "gender": "women"
+  },
+  {
+    "title": "raincoat",
+    "temp": "rain",
+    "image_url": "https://m.media-amazon.com/images/I/71KlrEd2kIL._AC_UL640_QL65_.jpg",
+    "product_details": "https://www.amazon.com/s?k=women+raincoat+outfit&ref=nb_sb_noss",
+    "gender": "women"
+  },
+  {
+    "title": "full_outfit",
+    "temp": "hot",
+    "image_url": "https://m.media-amazon.com/images/I/51-eWkTgIhL._AC_UL640_QL65_.jpg",
+    "product_details": "https://www.amazon.com/Sweatsuits-Matching-Athletic-Clothing-Tracksuit/dp/B08RD552CJ/ref=sr_1_2_sspa?crid=39FVWKAX7C2N3&keywords=women+summer+outfit&qid=1658638507&sprefix=women+summer+outfi%2Caps%2C162&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFZVzhSMU01RkMwUFYmZW5jcnlwdGVkSWQ9QTAzNjQwMTAxU0xXMTM4NFZVNlY3JmVuY3J5cHRlZEFkSWQ9QTA4NDU4MzQzMUVRMU1RUUhVOVlZJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==",
+    "gender": "women"
+  },
+  {
+    "title": "dress",
+    "temp": "hot",
+    "image_url": "https://m.media-amazon.com/images/I/51ByLDHkC2L._AC_UL640_QL65_.jpg",
+    "product_details": "https://www.amazon.com/s?k=women+summer+outfit&crid=39FVWKAX7C2N3&sprefix=women+summer+outfi%2Caps%2C162&ref=nb_sb_noss_2",
+    "gender": "women"
+  },
+  {
+    "title": "warmsuit",
+    "temp": "cold",
+    "image_url": "https://m.media-amazon.com/images/I/61hXlDMN4DL._AC_UL640_QL65_.jpg",
+    "product_details": "https://www.amazon.com/s?k=women+cold+fit&crid=Z7DSXMKCYHZ3&sprefix=women+cold+fi%2Caps%2C222&ref=nb_sb_noss_2",
+    "gender": "women"
+  },
+  {
+    "title": "warmsuit",
+    "temp": "cold",
+    "image_url": "https://m.media-amazon.com/images/I/813I+QnfxEL._AC_UL640_QL65_.jpg",
+    "product_details": "https://www.amazon.com/Under-Armour-Heatgear-sleeve-Metallic/dp/B07CZMZFKK/ref=sr_1_28?crid=Z7DSXMKCYHZ3&keywords=women+cold+fit&qid=1658638745&sprefix=women+cold+fi%2Caps%2C222&sr=8-28",
+    "gender": "women"
+  },
+  {
+    "title": "winterjacket",
+    "temp": "cold",
+    "image_url": "https://m.media-amazon.com/images/I/81W0ceK1WWL._MCnd_AC_UL640_QL65_.jpg",
+    "product_details": "https://www.amazon.com/s?k=women+jacket&crid=8THDP5EJGIKT&sprefix=women+jacke%2Caps%2C167&ref=nb_sb_noss_2",
+    "gender": "women"
+  },
+  {
+    "title": "jacket",
+    "temp": "cold",
+    "image_url": "https://m.media-amazon.com/images/I/61UHUq3z2wS._AC_UL640_QL65_.jpg",
+    "product_details": "https://www.amazon.com/Columbia-Womens-Mighty-Hooded-Jacket/dp/B00AG328B0/ref=sr_1_9?crid=8THDP5EJGIKT&keywords=women+jacket&qid=1658639032&sprefix=women+jacke%2Caps%2C167&sr=8-9",
+    "gender": "women"
+  },
+  {
+    "title": "full_outfit",
+    "temp": "hot",
+    "image_url": "https://m.media-amazon.com/images/I/519i10S0bPL._AC_UL640_QL65_.jpg",
+    "product_details": "https://www.amazon.com/s?k=hot+outfits+for+women&crid=202RR4NGZLIM1&sprefix=hot+outfits%2Caps%2C159&ref=nb_sb_ss_mission-aware-v1_1_11",
+    "gender": "women"
+  },
+  {
+    "title": "jacket",
+    "temp": "rain",
+    "image_url": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1839841_771_f?wid=768&hei=806&v=1642418206",
+    "product_details": "https://www.columbia.com/p/womens-pardon-my-trench-rain-jacket-1839841.html?dwvar_1839841_color=771",
+    "gender": "women"
+  },
+  {
+    "title": "jacket",
+    "temp": "rain",
+    "image_url": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1738161_879_f?wid=768&hei=806&v=1642418206",
+    "product_details": "https://www.columbia.com/p/womens-heavenly-long-hooded-jacket-1738161.html?dwvar_1738161_color=879",
+    "gender": "women"
+  },
+  {
+    "title": "full_outfit",
+    "temp": "hot",
+    "image_url": "https://images.asos-media.com/products/asos-4505-icon-legging-booty-short-in-cotton-touch/13720851-1-black?$n_640w$&wid=634&fit=constrain",
+    "product_details": "https://www.asos.com/us/women/sale/ctas/sale-edit-10/cat/?cid=28254&ctaref=hp|ww|sale|carousel|1|category|underxxx",
+    "gender": "women"
+  },
+  {
+    "title": "full_outfit",
+    "temp": "hot",
+    "image_url": "https://images.asos-media.com/products/puma-evoknit-seamless-leggings-in-clematis-blue/201327525-1-blue?$n_640w$&wid=634&fit=constrain",
+    "product_details": "https://www.asos.com/us/puma/puma-evoknit-seamless-leggings-in-clematis-blue/prd/201327525?clr=blue&colourWayId=201327543&cid=28254",
+    "gender": "women"
+  },
+  {
+    "title": "full_outfit",
+    "temp": "hot",
+    "image_url": "https://images.asos-media.com/products/heartbreak-oversized-sweater-in-pastel-stripe/24528164-1-lilacstripe?$n_640w$&wid=634&fit=constrain",
+    "product_details": "https://www.asos.com/us/women/sale/ctas/sale-edit-10/cat/?cid=28254&ctaref=hp|ww|sale|carousel|1|category|underxxx",
+    "gender": "women"
+  }
+]

@@ -264,10 +264,12 @@ textarea:focus {
   height: 20vh;
   padding: 50px;
   gap: 25px;
+
 }
 
 #myList li{
-  width: 10%;
+
+  width: 13%;
   text-align: center;
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.25);
@@ -287,8 +289,9 @@ textarea:focus {
 }
 
 #myList img{
-  margin-top: 5px;
+  margin-top: 20px;
   width: 150px;
+  
 }
 @media only screen and (max-width: 600px) {
   .row{
@@ -300,4 +303,7 @@ textarea:focus {
 }
 .green-highlight {
   color:#cce8b5;
+}
+img {
+  border-radius: 15px;
 }

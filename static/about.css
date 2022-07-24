@@ -95,3 +95,28 @@ nav {
   padding-bottom:10px !important;
   padding-top: 10px !important;
 }
+
+.about-page {
+  text-align: center;
+  height: 99vh;
+}
+
+.team_underline {
+  width: 60px;
+  color: orange;
+  height: 2px;
+  border-radius: 5px;
+  background-color: orange;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  margin-top: 10px;
+}
+
+p.catchphrase {
+  font-size: 24px;
+  max-width: 100%;
+  width: 30%;
+  line-height: 40px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
