@@ -92,26 +92,43 @@
             let num = parseInt(matches[0])
             console.log(num)
             node.appendChild(textnode);
-            if (num > 60){
+            if (num >= 60){
               var img = document.createElement('img');
+              var createA = document.createElement('a');
+              var createAText = document.createTextNode("More Info");
+              createA.appendChild(createAText);
               var random = hot[Math.floor(Math.random()*hot.length)];
               img.src = random.image_url;
+              createA.setAttribute('href', random.product_details);
               console.log(random.image_url);
               node.appendChild(img);
+              node.appendChild(createA);
+
             }
-            if (num < 60 && num > 30){
+            
+            if (num < 60 && num >= 30){
               var img = document.createElement('img');
+              var createA = document.createElement('a');
+              var createAText = document.createTextNode("More Info");
+              createA.appendChild(createAText);
               var random = cold[Math.floor(Math.random()*cold.length)];
               img.src = random.image_url;
+              createA.setAttribute('href', random.product_details);
               console.log(random.image_url);
               node.appendChild(img);
+              node.appendChild(createA);
             }
             if (num < 30) {
               var img = document.createElement('img');
+              var createA = document.createElement('a');
+              var createAText = document.createTextNode("More Info");
+              createA.appendChild(createAText);
               var random = rain[Math.floor(Math.random()*rain.length)];
               img.src = random.image_url;
+              createA.setAttribute('href', random.product_details);
               console.log(random.image_url);
               node.appendChild(img);
+              node.appendChild(createA);
             }
             document.getElementById("myList").appendChild(node);
           }
