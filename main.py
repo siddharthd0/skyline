@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request, json, redirect
 import requests
 import geocoder
 
@@ -23,16 +23,56 @@ def index():
 @app.route('/home')
 def home():
   return render_template('index.html')        
-@app.route('/men')
+@app.route('/men', methods=['GET','POST'])
 def men():
-  return render_template('men.html')
+  if request.method == 'POST':
+    output = request.get_json()
+    if output != None:
+      print(output) 
+      print(type(output))
+      result = json.loads(output)
+      print(result)
+      latitude = result["y"]
+      longitude = result["z"]
+      url = "https://api.weather.gov/points/{},{}".format(latitude, longitude)
+      data = requests.get(url)
+      list = data.json()
+      print(list["properties"]["forecast"])
+      url = list["properties"]["forecast"]
+      data = requests.get(url)
+      list = data.json()
+      results = list["properties"]["periods"]
+      print(type(results))
+      return render_template("men.html", yes = False)  
+    else:
+      return render_template("men.html", yes = False)
+  else:
+      return render_template("men.html", yes = False)
+@app.route('/test')
+def test():
+      latitude = 37.731815
+      longitude = -121.943672
+      url = "https://api.weather.gov/points/{},{}".format(latitude, longitude)
+      data = requests.get(url)
+      list = data.json()
+      print(list["properties"]["forecast"])
+      url = list["properties"]["forecast"]
+      data = requests.get(url)
+      list = data.json()
+      result = list["properties"]["periods"]
+      print(type(result))
+      return render_template("test.html", result=list, length=len(result), yes = True)
 
 @app.route('/selection')
 def selection():
   return render_template('gender-selector.html')
 
-@app.route('/woman')
+@app.route('/woman', methods=['GET','POST'])
 def women():
+  if request.method == 'POST':
+    output = request.get_json()
+    if output != None:
+      print(output) 
   return render_template('woman.html')
 
 @app.route('/about')
@@ -43,8 +83,12 @@ def about():
 def contact():
   return render_template('contact.html')
   
-@app.route('/other')
+@app.route('/other', methods=['GET','POST'])
 def other():
+  if request.method == 'POST':
+    output = request.get_json()
+    if output != None:
+      print(output) 
   return render_template('other.html')
   
-app.run(host='0.0.0.0', port=81, debug=True)
+app.run(host='0.0.0.0', port=81, debug=True, use_reloader = True)

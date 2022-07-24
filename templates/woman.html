@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="../static/style.css">
   <title>Skyline | Woman</title>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+
 </head>
 <body>
   <!--Navbar-->
@@ -16,6 +18,7 @@
               <li><a class="underline" href="/home">Home</a>    </li>
               <li><a class="underline" href="/men">Men</a></li>
              <li><a class="underline" href="/woman">Women</a></li>
+             <li><a class="underline" href="/other">Other</a></li>
           </ul>
         </nav>
       </header>
@@ -27,18 +30,26 @@
       <p id="location"></p>
     </div>
     <script>
-      window.onload = function getLocation() {
-      if (navigator.geolocation) {
-          navigator.geolocation.getCurrentPosition(showPosition);
-        }
+    window.onload = function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
       }
-      
-      function showPosition(position) {
-        let x = document.getElementById('location');
-        x.innerHTML = position.coords.latitude + ', '+position.coords.longitude;
-        console.log(position.coords.latitude)
-        console.log(position.coords.longitude);
-      }
+    }
+    
+    function showPosition(position) {
+      let x = document.getElementById('location');
+      x.innerHTML = position.coords.latitude + ', '+position.coords.longitude;
+      let y = position.coords.latitude
+      let z = position.coords.longitude
+      const dict_values = {y, z} //Pass the javascript variables to a dictionary.
+      const s = JSON.stringify(dict_values); // Stringify converts a JavaScript object or value to a JSON string
+      console.log(s); // Prints the variables to console window, which are in the JSON format
+      $.ajax({
+        url:"/woman",
+        type:"POST",
+        contentType: "application/json",
+        data: JSON.stringify(s)});
+    }
     </script>
 </body>
 </html>
