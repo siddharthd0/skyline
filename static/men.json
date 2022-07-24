@@ -1,0 +1,170 @@
+[
+  {
+    "title": "jacket",
+    "temp": "cold",
+    "image_url": "https://img.marshalls.com/marshalls?set=DisplayName[f2],prd[4000150818_alt1],ag[no]&call=url[file:tjxrPRD2_RB.chain]",
+    "product_details": "https://www.marshalls.com/us/store/jump/product/Venture-2-Rain-Jacket/4000150818?colorId=NS4154784&pos=1:6&Ntt=trans",
+    "gender": "men"
+  },
+  {
+    "title": "vest",
+    "temp": "cold",
+    "image_url": "https://images.asos-media.com/products/jack-jones-essentials-padded-vest-in-beige/200925297-1-crockery?$n_320w$&wid=317&fit=constrain",
+    "product_details": "https://www.asos.com/us/jack-jones/jack-jones-essentials-padded-vest-in-beige/prd/200925297?clr=crockery&colourWayId=200925298&cid=28235",
+    "gender": "men"
+  },
+  {
+    "title": "fullziphoodie",
+    "temp": "cold",
+    "image_url": "https://images.asos-media.com/products/jack-jones-logo-full-zip-hoodie-in-black/200625415-1-black?$n_320w$&wid=317&fit=constrain",
+    "product_details": "https://www.asos.com/us/jack-jones/jack-jones-logo-full-zip-hoodie-in-black/prd/200625415?clr=black&colourWayId=200625432&cid=28235",
+    "gender": "men"
+  },
+  {
+    "title": "thermal",
+    "temp": "cold",
+    "image_url": "https://m.media-amazon.com/images/I/6104rKl0xCL._AC_UL320_.jpg",
+    "product_details": "https://www.amazon.com/s?k=outfits+for+men+cold&crid=K02PRZ67ZDEH&sprefix=outfits+for+men+cold%2Caps%2C149&ref=nb_sb_noss",
+    "gender": "men"
+  },
+  {
+    "title": "pants",
+    "temp": "hot",
+    "image_url": "https://img.marshalls.com/marshalls?set=DisplayName[f2],prd[4000097921_alt1],ag[no]&call=url[file:tjxrPRD2_RB.chain]",
+    "product_details": "https://www.marshalls.com/us/store/jump/product/Sticker-Pete-Fleece-Pants/4000097921?colorId=NS5461196&pos=1:13&Ntt=trans",
+    "gender": "men"
+  },
+  {
+    "title": "shorts",
+    "temp": "hot",
+    "image_url": "https://img.marshalls.com/marshalls?set=DisplayName[f2],prd[4000129077_NS4154942],ag[no]&call=url[file:tjxrPRD2_RB.chain]",
+    "product_details": "https://www.marshalls.com/us/store/jump/product/Hybrid-Stretch-Golf-Shorts/4000129077?colorId=NS4154942&pos=1:1&Ntt=shorts",
+    "gender": "men"
+  },
+  {
+    "title": "tanktop",
+    "temp": "hot",
+    "image_url": "https://images.asos-media.com/products/topman-oversized-fit-tank-top-with-overdye-in-gray/200222132-1-dapplegrey?$n_320w$&wid=317&fit=constrain",
+    "product_details": "https://www.asos.com/us/topman/topman-oversized-fit-tank-top-with-overdye-in-gray/prd/200222132?clr=dapple-gray&colourWayId=200222133&cid=28235",
+    "gender": "men"
+  },
+  {
+    "title": "linen",
+    "temp": "hot",
+    "image_url": "https://m.media-amazon.com/images/I/712k1q6P7uL._AC_UL320_.jpg",
+    "product_details": "https://www.amazon.com/COOFANDY-Pieces-Casual-Henley-Outfits/dp/B09Y59CYT2/ref=sr_1_2?crid=32O219XHAIURE&keywords=outfits+for+men&qid=1658638920&sprefix=outfits+for+men%2Caps%2C629&sr=8-2",
+    "gender": "men"
+  },
+  {
+    "title": "jacket",
+    "temp": "rain",
+    "image_url": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1988551_813_a7?wid=768&hei=806&v=1642418206",
+    "product_details": "https://www.columbia.com/p/mens-outdry-extreme-mesh-hooded-shell-jacket-1988551.html?dwvar_1988551_color=813",
+    "gender": "men"
+  },
+  {
+    "title": "linenjacket",
+    "temp": "rain",
+    "image_url": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1839731_257_f?wid=768&hei=806&v=1642418206",
+    "product_details": "https://www.columbia.com/p/mens-oroville-creek-lined-jacket-1839731.html?dwvar_1839731_color=257",
+    "gender": "men"
+  },
+  {
+    "title": "windbraker",
+    "temp": "rain",
+    "image_url": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1988731_191_f?wid=768&hei=806&v=1642418206",
+    "product_details": "https://www.columbia.com/p/mens-flash-challenger-windbreaker-jacket-1988731.html?dwvar_1988731_color=191",
+    "gender": "men"
+  },
+  {
+    "title": "tanktop",
+    "temp": "hot",
+    "image_url": "https://images.asos-media.com/products/asos-design-slim-shorts-in-pink-cord/201217871-1-bulwood?$n_320w$&wid=317&fit=constrain",
+    "product_details": "https://www.asos.com/us/asos-design/asos-design-slim-shorts-in-pink-cord/prd/201217871?clr=bulwood&colourWayId=201217873&cid=28235",
+    "gender": "men"
+  },
+  {
+    "title": "rain_jacket",
+    "temp": "rain",
+    "image_url": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1988621_327_a5?wid=768&hei=806&v=1642418206",
+    "product_details": "https://www.columbia.com/p/mens-hikebound-rain-jacket-1988621.html?dwvar_1988621_color=327",
+    "gender": "men"
+  },
+  {
+    "title": "jacket",
+    "temp": "rain",
+    "image_url": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1988611_813_a6?wid=768&hei=806&v=1642418206",
+    "product_details": "https://www.columbia.com/p/mens-earth-explorer-shell-jacket-1988611.html?dwvar_1988611_color=813",
+    "gender": "men"
+  },
+  {
+    "title": "jacket",
+    "temp": "rain",
+    "image_url": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1888941_043_a7?wid=768&hei=806&v=1642418206",
+    "product_details": "https://www.columbia.com/p/mens-titan-pass-2.5l-shell-jacket-1888941.html?dwvar_1888941_color=043",
+    "gender": "men"
+  },
+  {
+    "title": "fleecevest",
+    "temp": "cold",
+    "image_url": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1639261_028_f?wid=768&hei=806&v=1642418206",
+    "product_details": "https://www.columbia.com/p/mens-steens-mountain-fleece-vest-1639261.html?dwvar_1639261_color=028",
+    "gender": "men"
+  },
+  {
+    "title": "fleece",
+    "temp": "cold",
+    "image_url": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/WT3220_479_f?wid=768&hei=806&v=1642418206",
+    "product_details": "https://www.columbia.com/p/mens-steens-mountain-2.0-full-zip-fleece-jacket---tall-WT3220.html?dwvar_WT3220_color=479",
+    "gender": "men"
+  },
+  {
+    "title": "sweatshirt",
+    "temp": "cold",
+    "image_url": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/2002171_039_f?wid=768&hei=806&v=1642418206",
+    "product_details": "https://www.columbia.com/p/mens-bubba-wallace-crew-sweatshirt-2002171.html?dwvar_2002171_color=039",
+    "gender": "men"
+  },
+  {
+    "title": "fleecehoodie",
+    "temp": "cold",
+    "image_url": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1955431_327_a5?wid=768&hei=806&v=1642418206",
+    "product_details": "https://www.columbia.com/p/mens-steens-mountain-full-zip-fleece-hoodie-1955431.html?dwvar_1955431_color=327",
+    "gender": "men"
+  },
+  {
+    "title": "tshirt",
+    "temp": "hot",
+    "image_url": "https://images.asos-media.com/products/jack-jones-2-piece-t-shirt-shorts-set-in-navy/201189312-1-navy?$n_320w$&wid=317&fit=constrain",
+    "product_details": "https://www.asos.com/us/men/sale/sale-edit-8/cat/?cid=28235&ctaref=hp%7Cmw%7Csale%7Ccarousel%7C1%7Ccategory%7Cunderxxx&currentpricerange=0-15&page=1&refine=attribute_1047:8415",
+    "gender": "men"
+  },
+  {
+    "title": "tshirt",
+    "temp": "hot",
+    "image_url": "https://images.asos-media.com/products/nike-training-dri-fit-20-t-shirt-in-gray/202515598-1-grey?$n_320w$&wid=317&fit=constrain",
+    "product_details": "https://www.asos.com/us/nike-training/nike-training-dri-fit-20-t-shirt-in-gray/prd/202515598?clr=gray&colourWayId=202515599&cid=7616",
+    "gender": "men"
+  },
+  {
+    "title": "tshirt",
+    "temp": "hot",
+    "image_url": "https://images.asos-media.com/products/asos-design-oversized-t-shirt-in-navy-with-brooklyn-chest-print/200773057-1-medievalblue?$n_320w$&wid=317&fit=constrain",
+    "product_details": "https://www.asos.com/us/asos-design/asos-design-oversized-t-shirt-in-navy-with-brooklyn-chest-print/prd/200773057?clr=medieval-blue&colourWayId=200773064&cid=28235",
+    "gender": "men"
+  },
+  {
+    "title": "jacket",
+    "temp": "rain",
+    "image_url": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/2010091_009_b?$x1_grid$&v=1642418206",
+    "product_details": "https://www.columbia.com/p/mens-tipton-peak-ii-insulated-jacket-2010091.html?dwvar_2010091_color=009",
+    "gender": "men"
+  },
+  {
+    "title": "jacket",
+    "temp": "rain",
+    "image_url": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/1856261_824_f?wid=768&hei=806&v=1642418206",
+    "product_details": "https://www.columbia.com/p/mens-collegiate-glennaker-storm-jacket---texas-1856261_TEXAS.html?dwvar_1856261_TEXAS_color=824",
+    "gender": "men"
+  }
+]

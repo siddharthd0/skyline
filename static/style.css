@@ -198,15 +198,7 @@ textarea {
     display: block;
     width: 100%;
 }
-span {
-    font-weight: 700;
-    color: #2a7eca;
-    line-height: 35px;
-    line-height: 2.5rem;
-    font-size: 12px;
-    font-size: 0.8rem;
-    text-transform: uppercase;
-}
+
 input[type="submit"] {
     background-color: #14213d;
     color: white;
@@ -263,15 +255,13 @@ textarea:focus {
     border: 1px solid #0042aa; 
 }
 
-
-
 #myList{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  height: 25vh;
+  height: 20vh;
   padding: 50px;
   gap: 25px;
 }
@@ -280,15 +270,25 @@ textarea:focus {
   width: 10%;
   text-align: center;
   padding: 10px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.25);
   align-self: stretch;
   border-radius: 10px;
   transition-duration: 0.45s;
+  box-shadow: 0 10px 22px 0 rgba(31, 38, 135, 0.37 );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #myList li:hover{
   transform: scale(1.05);
   transition-duration: 0.45s;
+}
+
+#myList img{
+  margin-top: 5px;
+  width: 150px;
 }
 @media only screen and (max-width: 600px) {
   .row{
@@ -297,4 +297,7 @@ textarea:focus {
   #myList{
     flex-direction: column;
   }
+}
+.green-highlight {
+  color:#cce8b5;
 }
