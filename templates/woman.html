@@ -4,10 +4,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="../static/style.css">
-  <title>Skyline | Woman</title>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
-
+  <link rel="stylesheet" href="../static/style.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js">
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <title>Skyline | Men</title>
 </head>
 <body>
   <!--Navbar-->
@@ -15,41 +19,30 @@
     <!--Logo here -->
         <nav>
            <ul class="list-items">
-              <li><a class="underline" href="/home">Home</a>    </li>
+              <li><a class="underline" href="/home">Home</a></li>
               <li><a class="underline" href="/men">Men</a></li>
              <li><a class="underline" href="/woman">Women</a></li>
              <li><a class="underline" href="/other">Other</a></li>
           </ul>
         </nav>
       </header>
-    <div class="container" style="color: white;">
-      <h1 style="color: white;">Women Clothing Recommendation</h1>
-      <br>
-      <p>Your Location: </p>
-      <br>
-      <p id="location"></p>
-    </div>
-    <script>
-    window.onload = function getLocation() {
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition);
-      }
-    }
-    
-    function showPosition(position) {
-      let x = document.getElementById('location');
-      x.innerHTML = position.coords.latitude + ', '+position.coords.longitude;
-      let y = position.coords.latitude
-      let z = position.coords.longitude
-      const dict_values = {y, z} //Pass the javascript variables to a dictionary.
-      const s = JSON.stringify(dict_values); // Stringify converts a JavaScript object or value to a JSON string
-      console.log(s); // Prints the variables to console window, which are in the JSON format
-      $.ajax({
-        url:"/woman",
-        type:"POST",
-        contentType: "application/json",
-        data: JSON.stringify(s)});
-    }
-    </script>
+  <div class="container" style="color: white;">
+    <h1 style="color: white;">Women Clothing Recommendation</h1>
+    <br>
+    <p>Your Location: </p> 
+    <br>
+    <p id="location"></p>
+    <br>
+    <ul id="myList">
+      
+    </ul>
+
+  </div>
+  <script src="../static/main.js">
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
